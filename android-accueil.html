@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./android-accueil.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="android-accueil-div">
+      <img class="ellipse-icon15" alt="" src="public/ellipse-3.svg" /><img
+        class="ellipse-icon16"
+        alt=""
+        src="public/ellipse-2.svg"
+      /><b class="accueil-b1">ACCUEIL</b
+      ><b class="formation-web-et-web-mobile-un"
+        ><p class="formation-web-et">FORMATION WEB ET WEB MOBILE</p>
+        <p class="formation-web-et">&nbsp;</p>
+        <p class="formation-web-et">&nbsp;</p>
+        <p class="formation-web-et">Une formation gratuite et rémunérée</p>
+        <p class="formation-web-et">pour les demandeurs d’emplois.</p>
+        <p class="formation-web-et">&nbsp;</p>
+        <p class="blank-line-p14">&nbsp;</p></b
+      ><img
+        class="overlay-icon4"
+        alt=""
+        src="public/overlay.svg"
+        id="overlayIcon"
+      /><img class="logo-icon4" alt="" src="public/logo@2x.png" />
+      <div class="je-dcouvre-la-formation" id="jeDcouvreLaFormation">
+        <div class="rectangle-div15"></div>
+        <b class="je-dcouvre-la-formation1">Je découvre la formation</b>
+      </div>
+      <img class="ellipse-icon17" alt="" src="public/ellipse-1.svg" /><img
+        class="ellipse-icon18"
+        alt=""
+        src="public/ellipse-4.svg"
+      /><img
+        class="logo-twitter-icon4"
+        alt=""
+        src="public/logo-twitter@2x.png"
+        id="logoTwitterIcon"
+      /><img
+        class="logo-facebook-icon4"
+        alt=""
+        src="public/logo-facebook@2x.png"
+        id="logoFacebookIcon"
+      /><img
+        class="logo-youtube-icon4"
+        alt=""
+        src="public/logo-youtube@2x.png"
+        id="logoYoutubeIcon"
+      />
+    </div>
+
+    <div id="burgerContainer" class="popup-overlay" style="display: none">
+      <div class="burger-div">
+        <img class="croix-icon" alt="" src="public/croix.svg" />
+        <div class="contactez-nous-div" id="popupcontactezNousContainer">
+          <div class="rectangle-div"></div>
+          <b class="contactez-nous-b"
+            ><p class="contactez-nous-p">Contactez-nous</p></b
+          >
+        </div>
+        <div class="accueil-div" id="popupaccueilContainer">
+          <div class="rectangle-div"></div>
+          <b class="accueil-b"
+            ><p class="contactez-nous-p">Accueil</p>
+            <p class="blank-line-p9">&nbsp;</p></b
+          >
+        </div>
+        <div class="nos-rfrences-div" id="popupnosRfrencesContainer">
+          <div class="rectangle-div"></div>
+          <b class="nos-rfrences-b"
+            ><p class="contactez-nous-p">Nos références</p></b
+          >
+        </div>
+        <div class="tmoignages-div1" id="popuptmoignagesContainer">
+          <div class="rectangle-div"></div>
+          <b class="tmoignages-b"
+            ><p class="contactez-nous-p">Témoignages</p></b
+          >
+        </div>
+        <div class="la-formation-div" id="popuplaFormationContainer">
+          <div class="rectangle-div"></div>
+          <b class="la-formation-b"
+            ><p class="contactez-nous-p">La Formation</p>
+            <p class="blank-line-p9">&nbsp;</p></b
+          >
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var popupcontactezNousContainer = document.getElementById(
+        "popupcontactezNousContainer"
+      );
+      if (popupcontactezNousContainer) {
+        popupcontactezNousContainer.addEventListener("click", function (e) {
+          window.location.href = "./contactez-nous.html";
+        });
+      }
+      
+      var popupaccueilContainer = document.getElementById("popupaccueilContainer");
+      if (popupaccueilContainer) {
+        popupaccueilContainer.addEventListener("click", function (e) {
+          window.location.href = "./android-accueil.html";
+        });
+      }
+      
+      var popupnosRfrencesContainer = document.getElementById(
+        "popupnosRfrencesContainer"
+      );
+      if (popupnosRfrencesContainer) {
+        popupnosRfrencesContainer.addEventListener("click", function (e) {
+          window.location.href = "./nos-rfrences.html";
+        });
+      }
+      
+      var popuptmoignagesContainer = document.getElementById(
+        "popuptmoignagesContainer"
+      );
+      if (popuptmoignagesContainer) {
+        popuptmoignagesContainer.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var popuplaFormationContainer = document.getElementById(
+        "popuplaFormationContainer"
+      );
+      if (popuplaFormationContainer) {
+        popuplaFormationContainer.addEventListener("click", function (e) {
+          window.location.href = "./la-formation-d-w-w-m.html";
+        });
+      }
+      
+      var overlayIcon = document.getElementById("overlayIcon");
+      if (overlayIcon) {
+        overlayIcon.addEventListener("click", function () {
+          var popup = document.getElementById("burgerContainer");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      
+      var jeDcouvreLaFormation = document.getElementById("jeDcouvreLaFormation");
+      if (jeDcouvreLaFormation) {
+        jeDcouvreLaFormation.addEventListener("click", function (e) {
+          window.location.href = "./la-formation-d-w-w-m.html";
+        });
+      }
+      
+      var logoTwitterIcon = document.getElementById("logoTwitterIcon");
+      if (logoTwitterIcon) {
+        logoTwitterIcon.addEventListener("click", function () {
+          window.open("https://twitter.com/afpa_formation");
+        });
+      }
+      
+      var logoFacebookIcon = document.getElementById("logoFacebookIcon");
+      if (logoFacebookIcon) {
+        logoFacebookIcon.addEventListener("click", function () {
+          window.open("https://www.facebook.com/Afpa.France/");
+        });
+      }
+      
+      var logoYoutubeIcon = document.getElementById("logoYoutubeIcon");
+      if (logoYoutubeIcon) {
+        logoYoutubeIcon.addEventListener("click", function () {
+          window.open("https://www.youtube.com/user/AfpaWebTv");
+        });
+      }
+      </script>
+  </body>
+</html>

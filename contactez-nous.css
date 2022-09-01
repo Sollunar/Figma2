@@ -1,0 +1,423 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.ellipse-icon4 {
+  position: absolute;
+  top: 32px;
+  left: 108px;
+  width: 335px;
+  height: 222px;
+}
+.rectangle-div5,
+.rectangle-div6,
+.rectangle-div7 {
+  position: absolute;
+  top: 240px;
+  left: 20px;
+  border-radius: 50px;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 306px;
+  height: 58px;
+}
+.rectangle-div6,
+.rectangle-div7 {
+  top: 339px;
+  left: 16px;
+}
+.rectangle-div7 {
+  top: 438px;
+}
+.contactez-nous-b1 {
+  position: absolute;
+  top: 171px;
+  left: 60px;
+  font-size: 24px;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  color: #418fde;
+}
+.logo-icon1,
+.overlay-icon1 {
+  position: absolute;
+  top: 13px;
+  left: 313px;
+  width: 25px;
+  height: 12px;
+}
+.logo-icon1 {
+  top: 15px;
+  left: 16px;
+  width: 112px;
+  height: 59px;
+  object-fit: cover;
+}
+.adresse-mail-div,
+.nom-prnom,
+.tlphone-div,
+.vos-modalits-prfrs,
+.vous-tes,
+.vous-tes-rsident-de {
+  position: absolute;
+  top: 353px;
+  left: 36px;
+  font-size: 24px;
+  display: inline-block;
+  width: 305px;
+  height: 44px;
+}
+.nom-prnom,
+.tlphone-div,
+.vos-modalits-prfrs,
+.vous-tes,
+.vous-tes-rsident-de {
+  top: 254px;
+  left: 37px;
+}
+.tlphone-div,
+.vos-modalits-prfrs,
+.vous-tes,
+.vous-tes-rsident-de {
+  top: 452px;
+}
+.vos-modalits-prfrs,
+.vous-tes,
+.vous-tes-rsident-de {
+  top: 858px;
+  left: 21px;
+}
+.vous-tes,
+.vous-tes-rsident-de {
+  top: 1138px;
+}
+.vous-tes {
+  top: 605px;
+  height: 36px;
+}
+.component-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.demandeur-demploi-div,
+.distance-div {
+  position: absolute;
+  top: 649px;
+  left: 21px;
+  width: 259px;
+  height: 30px;
+}
+.distance-div {
+  top: 3px;
+  left: 58px;
+  display: inline-block;
+  width: 201px;
+  height: 24px;
+}
+.demandeur-demploi-div2,
+.demandeur-demploi-div3,
+.demandeur-demploi-div4 {
+  position: absolute;
+  top: 967px;
+  left: 27px;
+  width: 259px;
+  height: 30px;
+}
+.demandeur-demploi-div3,
+.demandeur-demploi-div4 {
+  top: 1024px;
+}
+.demandeur-demploi-div4 {
+  top: 1081px;
+}
+.formation-en-prsentiel1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.formation-en-prsentiel {
+  position: absolute;
+  top: 3px;
+  left: 58px;
+  display: inline-block;
+  width: 226px;
+  height: 24px;
+}
+.demandeur-demploi-div5,
+.demandeur-demploi-div6 {
+  position: absolute;
+  top: 910px;
+  left: 27px;
+  width: 284px;
+  height: 30px;
+}
+.demandeur-demploi-div6 {
+  top: 763px;
+  left: 21px;
+  width: 259px;
+}
+.salari-en-transition-pro {
+  position: absolute;
+  top: 3px;
+  left: 58px;
+  display: inline-block;
+  width: 232px;
+  height: 24px;
+}
+.salari-en-transition {
+  position: absolute;
+  top: 706px;
+  left: 21px;
+  width: 290px;
+  height: 30px;
+}
+.cadre-rgions-div10 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50px;
+  background-color: #fff;
+}
+.rgions-b2 {
+  position: absolute;
+  height: 55.32%;
+  width: 80.52%;
+  top: 19.15%;
+  right: 8.66%;
+  bottom: 25.53%;
+  left: 10.82%;
+  display: inline-block;
+}
+.flche-rgions-icon1 {
+  position: absolute;
+  height: 42.21%;
+  width: 8.8%;
+  top: 25.03%;
+  right: 8.08%;
+  bottom: 32.76%;
+  left: 83.12%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.ellipse-icon5,
+.group-div1 {
+  position: absolute;
+  top: 1190px;
+  left: 58px;
+  width: 231px;
+  height: 47px;
+}
+.ellipse-icon5 {
+  top: 0;
+  left: 0;
+  width: 335px;
+  height: 222px;
+}
+.ellipse-icon6,
+.ellipse-icon7 {
+  position: absolute;
+  top: 1346px;
+  left: 239px;
+  width: 208px;
+  height: 153px;
+}
+.ellipse-icon7 {
+  top: 1395px;
+  left: 182px;
+  width: 107px;
+  height: 104px;
+}
+.logo-facebook-icon1,
+.logo-twitter-icon1,
+.logo-youtube-icon1 {
+  position: absolute;
+  top: 1463px;
+  left: 326px;
+  width: 25px;
+  height: 22px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.logo-facebook-icon1,
+.logo-youtube-icon1 {
+  left: 295px;
+}
+.logo-youtube-icon1 {
+  left: 239px;
+  width: 50px;
+}
+.rectangle-div8 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 100px;
+  background: linear-gradient(180deg, #78be20, rgba(120, 190, 32, 0));
+  box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.envoyer-div {
+  position: absolute;
+  height: 66.67%;
+  width: 47.8%;
+  top: 16.67%;
+  right: 26.42%;
+  bottom: 16.67%;
+  left: 25.79%;
+  display: inline-block;
+}
+.component-6-div {
+  position: absolute;
+  top: 1423px;
+  left: 10px;
+  width: 159px;
+  height: 36px;
+  font-family: Inter;
+}
+.contactez-nous-div1 {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1493px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Arial;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.croix-icon,
+.rectangle-div {
+  position: absolute;
+  top: 7.65px;
+  left: 198px;
+  width: 30.59px;
+  height: 31.49px;
+}
+.rectangle-div {
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+  background: linear-gradient(180deg, #78be20, rgba(120, 190, 32, 0));
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 190px;
+  height: 54px;
+}
+.contactez-nous-p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.contactez-nous-b {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  display: inline-block;
+  width: 159px;
+  height: 44px;
+}
+.contactez-nous-div {
+  position: absolute;
+  top: 663px;
+  left: 21px;
+  width: 190px;
+  height: 60px;
+  cursor: pointer;
+}
+.blank-line-p9 {
+  margin: 0;
+}
+.accueil-b {
+  position: absolute;
+  top: 14px;
+  left: 34px;
+  display: inline-block;
+  width: 122px;
+  height: 44px;
+}
+.accueil-div {
+  position: absolute;
+  top: 113px;
+  left: 21px;
+  width: 190px;
+  height: 58px;
+  cursor: pointer;
+}
+.nos-rfrences-b {
+  position: absolute;
+  top: 16px;
+  left: 21px;
+  display: inline-block;
+  width: 148px;
+  height: 44px;
+}
+.nos-rfrences-div {
+  position: absolute;
+  top: 525px;
+  left: 21px;
+  width: 190px;
+  height: 60px;
+  cursor: pointer;
+}
+.tmoignages-b {
+  position: absolute;
+  top: 16px;
+  left: 34px;
+  display: inline-block;
+  width: 131px;
+  height: 44px;
+}
+.tmoignages-div1 {
+  position: absolute;
+  top: 387px;
+  left: 21px;
+  width: 190px;
+  height: 60px;
+  cursor: pointer;
+}
+.la-formation-b {
+  position: absolute;
+  top: 15px;
+  left: 29px;
+  display: inline-block;
+  width: 131px;
+  height: 44px;
+}
+.la-formation-div {
+  position: absolute;
+  top: 250px;
+  left: 21px;
+  width: 190px;
+  height: 59px;
+  cursor: pointer;
+}
+.burger-div {
+  position: relative;
+  background-color: #fff;
+  width: 232px;
+  height: 800px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  font-family: Arial;
+}
