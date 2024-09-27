@@ -1,0 +1,417 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 79px;
+  left: 48px;
+  width: 289px;
+  height: 211px;
+}
+.ellipse-icon1,
+.ellipse-icon2,
+.logo-icon {
+  position: absolute;
+  top: 790px;
+  left: 208px;
+  width: 208px;
+  height: 153px;
+}
+.ellipse-icon2,
+.logo-icon {
+  top: 424px;
+  left: 0;
+}
+.logo-icon {
+  top: 15px;
+  left: 17px;
+  width: 112px;
+  height: 59px;
+  object-fit: cover;
+}
+.les-stagiaires-tmoignent {
+  position: absolute;
+  top: 146px;
+  left: 19px;
+  font-size: 24px;
+  display: inline-block;
+  color: #418fde;
+  width: 318px;
+  height: 106px;
+}
+.alexis-garnier-p1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.dveloppeur {
+  margin: 0;
+}
+.alexis-garnier-dveloppeur {
+  position: absolute;
+  top: 344px;
+  left: 110px;
+  display: inline-block;
+  width: 135px;
+  height: 55px;
+}
+.antoine-germanique-dveloppeur,
+.sarah-chesne-dveloppeuse-web {
+  position: absolute;
+  top: 567px;
+  left: 83px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 194px;
+  height: 55px;
+}
+.antoine-germanique-dveloppeur {
+  top: 791px;
+  left: 53px;
+  width: 253px;
+}
+.ellipse-icon3,
+.overlay-icon {
+  position: absolute;
+  top: 13px;
+  left: 312px;
+  width: 25px;
+  height: 12px;
+}
+.ellipse-icon3 {
+  top: 0;
+  left: 0;
+  width: 335px;
+  height: 222px;
+}
+.logo-facebook-icon,
+.logo-twitter-icon,
+.logo-youtube-icon {
+  position: absolute;
+  top: 892px;
+  left: 328px;
+  width: 25px;
+  height: 22px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.logo-facebook-icon,
+.logo-youtube-icon {
+  left: 297px;
+}
+.logo-youtube-icon {
+  left: 241px;
+  width: 50px;
+}
+.image-1-icon,
+.image-3-icon,
+.image-6-icon {
+  position: absolute;
+  top: 219px;
+  left: 102px;
+  width: 151px;
+  height: 119px;
+  object-fit: cover;
+}
+.image-3-icon,
+.image-6-icon {
+  top: 441px;
+}
+.image-6-icon {
+  top: 665px;
+  left: 103px;
+}
+.tmoignages-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 919px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Arial;
+}
+.cadre-antoine-germanique {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #7a99ac;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 287px;
+  height: 667px;
+}
+.antoine-germanique-p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.entreprise-b {
+  font-family: Arial;
+}
+.p3 {
+  margin: 0;
+}
+.antoine-germanique-entreprise {
+  position: absolute;
+  top: 180px;
+  left: 7px;
+  display: inline-block;
+  width: 280px;
+  height: 473px;
+}
+.image-5-icon {
+  position: absolute;
+  top: 31px;
+  left: 68px;
+  width: 151px;
+  height: 119px;
+  object-fit: cover;
+}
+.antoine-germanique-div {
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  width: 287px;
+  height: 667px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: 13px;
+  color: #000;
+  font-family: Arial;
+}
+.cadre-sarah-chesne {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #7a99ac;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 287px;
+  height: 668px;
+}
+.sarah-chesne-p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.emploi-b {
+  font-family: Arial;
+}
+.p7 {
+  margin: 0;
+}
+.sarah-chesne-entreprise-sii {
+  position: absolute;
+  top: 180px;
+  left: 5px;
+  display: inline-block;
+  width: 277px;
+  height: 466px;
+}
+.image-4-icon {
+  position: absolute;
+  top: 30px;
+  left: 65px;
+  width: 151px;
+  height: 119px;
+  object-fit: cover;
+}
+.sarah-chesne-div {
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  width: 287px;
+  height: 668px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: 14px;
+  color: #000;
+  font-family: Arial;
+}
+.cadre-alexis-garnier {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #7a99ac;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 287px;
+  height: 668px;
+}
+.alexis-garnier-p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.entreprise-b2 {
+  font-family: Arial;
+}
+.p11 {
+  margin: 0;
+}
+.alexis-garnier-entreprise-wi {
+  position: absolute;
+  top: 180px;
+  left: 14px;
+  display: inline-block;
+  width: 208px;
+  height: 467px;
+}
+.image-2-icon {
+  position: absolute;
+  top: 31px;
+  left: 62px;
+  width: 151px;
+  height: 119px;
+  object-fit: cover;
+}
+.alexis-garnier-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 287px;
+  height: 668px;
+}
+.alexis-garnier-div {
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  width: 287px;
+  height: 668px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: 14px;
+  color: #000;
+  font-family: Arial;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.croix-icon,
+.rectangle-div {
+  position: absolute;
+  top: 7.65px;
+  left: 198px;
+  width: 30.59px;
+  height: 31.49px;
+}
+.rectangle-div {
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+  background: linear-gradient(180deg, #78be20, rgba(120, 190, 32, 0));
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 190px;
+  height: 54px;
+}
+.contactez-nous-p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.contactez-nous-b {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  display: inline-block;
+  width: 159px;
+  height: 44px;
+}
+.contactez-nous-div {
+  position: absolute;
+  top: 663px;
+  left: 21px;
+  width: 190px;
+  height: 60px;
+  cursor: pointer;
+}
+.blank-line-p9 {
+  margin: 0;
+}
+.accueil-b {
+  position: absolute;
+  top: 14px;
+  left: 34px;
+  display: inline-block;
+  width: 122px;
+  height: 44px;
+}
+.accueil-div {
+  position: absolute;
+  top: 113px;
+  left: 21px;
+  width: 190px;
+  height: 58px;
+  cursor: pointer;
+}
+.nos-rfrences-b {
+  position: absolute;
+  top: 16px;
+  left: 21px;
+  display: inline-block;
+  width: 148px;
+  height: 44px;
+}
+.nos-rfrences-div {
+  position: absolute;
+  top: 525px;
+  left: 21px;
+  width: 190px;
+  height: 60px;
+  cursor: pointer;
+}
+.tmoignages-b {
+  position: absolute;
+  top: 16px;
+  left: 34px;
+  display: inline-block;
+  width: 131px;
+  height: 44px;
+}
+.tmoignages-div1 {
+  position: absolute;
+  top: 387px;
+  left: 21px;
+  width: 190px;
+  height: 60px;
+  cursor: pointer;
+}
+.la-formation-b {
+  position: absolute;
+  top: 15px;
+  left: 29px;
+  display: inline-block;
+  width: 131px;
+  height: 44px;
+}
+.la-formation-div {
+  position: absolute;
+  top: 250px;
+  left: 21px;
+  width: 190px;
+  height: 59px;
+  cursor: pointer;
+}
+.burger-div {
+  position: relative;
+  background-color: #fff;
+  width: 232px;
+  height: 800px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  font-family: Arial;
+}

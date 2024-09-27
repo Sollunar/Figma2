@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.selon-les-tablissements {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.prsentiel-en-tablissement {
+  margin-bottom: 0;
+}
+.prsentiel-en-tablissement-de {
+  margin: 0;
+  padding-left: 27px;
+}
+.selon-les-tablissements-et-la {
+  position: absolute;
+  top: 26px;
+  left: 49px;
+  display: inline-block;
+  width: 234px;
+  height: 400px;
+}
+.les-modalits-div {
+  position: relative;
+  border-radius: 30px;
+  background-color: #008c95;
+  width: 338px;
+  height: 380px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: inherit;
+  color: #000;
+  font-family: inherit;
+}

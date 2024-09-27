@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.cadre-alexis-garnier {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #7a99ac;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 287px;
+  height: 668px;
+}
+.alexis-garnier-p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.entreprise-b2 {
+  font-family: Arial;
+}
+.p11 {
+  margin: 0;
+}
+.alexis-garnier-entreprise-wi {
+  position: absolute;
+  top: 180px;
+  left: 14px;
+  display: inline-block;
+  width: 208px;
+  height: 467px;
+}
+.image-2-icon {
+  position: absolute;
+  top: 31px;
+  left: 62px;
+  width: 151px;
+  height: 119px;
+  object-fit: cover;
+}
+.alexis-garnier-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 287px;
+  height: 668px;
+}
+.alexis-garnier-div {
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  width: 287px;
+  height: 668px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: 14px;
+  color: #000;
+  font-family: Arial;
+}

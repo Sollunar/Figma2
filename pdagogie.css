@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.notre-pdagogie-privilgie {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.nous-crons-un {
+  margin: 0;
+}
+.notre-pdagogie-privilgie-la {
+  position: absolute;
+  top: 29px;
+  left: 35px;
+  display: inline-block;
+  width: 289px;
+  height: 390px;
+}
+.pdagogie-div {
+  position: relative;
+  border-radius: 30px;
+  background-color: #008c95;
+  width: 360px;
+  height: 431px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Arial;
+}
